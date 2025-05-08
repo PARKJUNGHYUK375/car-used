@@ -289,4 +289,3 @@ window.addEventListener('DOMContentLoaded', () => {
   loadInputs();
   loadCheckboxState();
   updateAll();
-  </script>
