@@ -221,7 +221,7 @@ function updateAll() {
     label.style.top = top;
     label.style.left = left;
     label.innerHTML = `<input type="checkbox" class="part" data-name="${name}" onclick="updateAll()"> ${name}`;
-    partSection.appendChild(label);
+   
   });
   
     const accidentSection = document.getElementById('accidentSection');
